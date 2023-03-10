@@ -81,3 +81,81 @@
 
 // }
 //-------------------------------
+
+//пишемо скрипт для відображення годин і хвилин
+// const hours = 14;
+// const minutes = 26;
+// let timeString;
+// if (hours === 0) {
+//     timeString = `${hours} год`;
+// } else {
+//     timeString = `${hours} год ${minutes} хв`;
+// }
+// console.log(timeString);
+//--------------------------------------------
+//форматуємо хвилини в години
+// const minutes = 456;
+// const minutesValue = minutes % 60;
+// const hours = Math.floor(minutes / 60);
+// console.log(`${hours}год ${minutesValue}хв`);
+//----------------------------------------------
+//пишемо цикл for який виводить цифри по зростанню які кратні 5
+// const max = 100;
+// const min = 20;
+// for (let i = min; i <= max; i += 1) {
+//     if (i % 5 === 0) {
+//         console.log(i);
+//     }
+// }
+//--------------------------------------
+// const max = 100;
+// const min = 20;
+// for (let i = min; i <= max; i += 5) { //якщо число кругле то += 5
+//     console.log(i);
+// }
+//-----------------------------------------
+//переписуємо на while
+// const max = 100;
+// const min = 20;
+
+// let i = min;
+// while(i <= max) {
+//     if(i % 5 === 0) {
+//         console.log(i);
+//     }
+//     i ++;
+// }
+
+//------------------------------
+//do while
+// const min = 20;
+// const max = 100;
+
+//  let i = min;
+//  do {
+//     if(i % 5 === 0) {
+//         console.log(i); 
+//     }
+//     i += 1;
+//  } while(i <= max);
+ //--------------------------------
+
+//do while банкомат і пароль
+// const password = 'admin';
+// let userPassword;
+
+// do {
+//     userPassword = prompt('Enter password'); 
+//         console.log(userPassword);
+//     } while (userPassword !== password);
+//-----------------------------------------
+
+//функція яка виводить результат
+// const result = 2 + 3;
+
+// function add() {
+//    return 2 + 3;
+// }
+// console.log(add());
+//-------------------------
+
